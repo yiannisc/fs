@@ -1,0 +1,86 @@
+body {
+    font-family: Arial;
+    font-size: 14px;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    background-color: #e0e0e0;
+    line-height: 0.2em;
+}
+.col {
+    display: inline-block;
+    float: left;
+    border: 1px solid #ccc;
+    width: 49%;
+}
+.col-head {
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+.col-content {
+    padding: 10px;
+}
+.left ul {
+    list-style: none;
+    margin-left: -40px;
+}
+.type {
+    display: inline;
+}
+.type a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+.type,
+input[type=submit] {
+    padding: 10px;
+    background-color: #20a4df;
+    display: inline;
+    border: 1px solid #0084bf;
+    color: #ffffff;
+}
+.links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input[type="text"], select {
+    width: 97%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+select {
+    width: 99.5%;
+}
+.left {
+    margin-right: 15px;
+}
+.right .col-content {
+    margin: 0;
+    padding: 0;
+}
+.queue {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+}
+.row {
+    border-bottom: 1px solid #cccccc;
+
+}
+.row:last-child {
+    border-bottom: none;    
+}
+.row td,
+.row th {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+}
